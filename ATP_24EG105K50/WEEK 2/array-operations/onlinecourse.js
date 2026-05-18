@@ -1,0 +1,11 @@
+const courses = ["javascript", "react", "node", "mongodb", "express"];
+    let filter_length=courses.filter(element=>element.length>5)
+    let map_uppercase=courses.map(element=>element.toUpperCase())
+    let concat_string=courses.reduce((acc,element)=>acc+" | "+element)
+    let find_react=courses.find(element=>element==='react')
+    let find_index=courses.findIndex(element=>element==='node')
+console.log(`filter() courses with name length > 5: ${filter_length}`)
+console.log(`map() to convert course names to uppercase: ${map_uppercase}`)
+console.log(`reduce() to generate a single string: ${concat_string}`)
+console.log(`find() the course react : ${find_react}`)
+console.log(`findIndex() of node: ${find_index}`)

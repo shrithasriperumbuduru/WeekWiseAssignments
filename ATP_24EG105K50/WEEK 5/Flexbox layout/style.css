@@ -1,0 +1,38 @@
+.parent
+{
+    width:1000px;
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    display:flex ;
+    gap:30px;
+
+}
+img{
+    width:50%;
+    margin-bottom:30px;
+    border-radius: 50%;
+}
+.child{
+width:50%;
+    margin-bottom:30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+nav ul{
+    width:700px;
+    display: flex;
+    
+    list-style-type: none;
+    justify-content: space-evenly;
+}
