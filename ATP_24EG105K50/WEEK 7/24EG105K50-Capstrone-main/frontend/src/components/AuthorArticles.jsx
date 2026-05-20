@@ -94,7 +94,7 @@ function AuthorArticles() {
           <img
             src={
               article.articleImage
-                ? `http://localhost:5000${article.articleImage}`
+                ? `https://blogapp-iyjr.onrender.com${article.articleImage}`
                 : "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1974&auto=format&fit=crop"
             }
             alt="Article"
